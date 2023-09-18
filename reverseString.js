@@ -7,3 +7,11 @@ const reverseString = (a) => {
 	return a.split("").reverse().join("").split(" ").reverse().join(" ");
 };
 console.log(reverseString("This is an example!"));
+
+// Complete the solution so that it reverses the string passed into it.
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
+function solution(str) {
+	return str.split("").reverse().join("");
+}
+console.log(solution("world"));
